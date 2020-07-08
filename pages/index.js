@@ -14,7 +14,7 @@ export async function getStaticProps() {
 const Home = ({ repositories }) => {
   return (
     <div>
-      <h1> My repositories</h1>
+      <h1> My repositories from Github</h1>
       <ul>
         {
           repositories.map(repository => (
